@@ -1,0 +1,90 @@
+\documentclass[times, utf8, seminar, numeric]{fer}
+
+\usepackage{booktabs}
+\usepackage{listings}
+
+\usepackage{xcolor}
+\usepackage{color, colortbl}
+\usepackage{pgfplotstable}
+\usepackage{pgfplots}
+
+\usepackage{url}
+\def\UrlBreaks{\do/\do-}
+\usepackage{breakurl}
+\usepackage[breaklinks]{hyperref}
+
+\hypersetup{
+	colorlinks,
+	linkcolor={black},
+	citecolor={black},
+	urlcolor={black}
+}
+
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{lightblue}{rgb}{0.7,0.99,0.99}
+
+\lstdefinestyle{mystyle}{
+	frame=single,   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+
+\lstset{style=mystyle}
+
+%\renewcommand*{\lstlistingname}{Isječak koda}
+%\renewcommand*\lstlistlistingname{Popis isječaka koda}
+
+\begin{document}
+
+% TODO: Navedite naslov rada.
+\title{Povezivanje razvojnog sustava ESP32-C3-DevKitM-1 sa \textit{Firebase} bazom podataka putem Wi-Fi veze}
+
+% TODO: Navedite vaše ime i prezime.
+\author{Jelena Gavran}
+
+% TODO: Navedite ime i prezime mentora.
+\voditelj{prof. dr. sc. Hrvoje Džapo}
+
+\maketitle
+
+\tableofcontents
+
+\begingroup
+\renewcommand*\listfigurename{Popis slika}
+\listoffigures
+%\addcontentsline{toc}{chapter}{\lstlistlistingname}
+%\lstlistoflistings
+%\listoftables
+\endgroup
+
+
+\include{Uvod}
+\include{ESP32}
+\include{Firebase}
+\include{Zakljucak}
+
+
+\bibliography{literatura}
+\bibliographystyle{fer}
+
+\title{Povezivanje razvojnog sustava ESP32-C3-DevKitM-1 sa Firebase bazom podataka putem Wi-Fi veze}
+\begin{sazetak}
+	% ovdje je sazetak rada
+	
+	\kljucnerijeci{ESP32, Wi-Fi, Firebase}
+\end{sazetak}
+
+\end{document}
