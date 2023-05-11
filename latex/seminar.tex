@@ -8,6 +8,8 @@
 \usepackage{pgfplotstable}
 \usepackage{pgfplots}
 
+\usepackage{multirow}
+
 \usepackage{url}
 \def\UrlBreaks{\do/\do-}
 \usepackage{breakurl}
@@ -50,7 +52,7 @@
 \begin{document}
 
 % TODO: Navedite naslov rada.
-\title{Povezivanje razvojnog sustava ESP32-C3-DevKitM-1 sa \textit{Firebase} bazom podataka putem Wi-Fi veze}
+\title{Povezivanje razvojnog sustava ESP32-C3-DevKitM-1 s bazom podataka Firebase putem Wi-Fi veze}
 
 % TODO: Navedite vaše ime i prezime.
 \author{Jelena Gavran}
@@ -74,17 +76,18 @@
 \include{Uvod}
 \include{ESP32}
 \include{Firebase}
+\include{Stvarni_slucaj}
 \include{Zakljucak}
 
 
 \bibliography{literatura}
 \bibliographystyle{fer}
 
-\title{Povezivanje razvojnog sustava ESP32-C3-DevKitM-1 sa Firebase bazom podataka putem Wi-Fi veze}
+\title{Povezivanje razvojnog sustava ESP32-C3-DevKitM-1 s bazom podataka Firebase putem Wi-Fi veze}
 \begin{sazetak}
 	% ovdje je sazetak rada
 	
-	\kljucnerijeci{ESP32, Wi-Fi, Firebase}
+	\kljucnerijeci{ESP32-C3-DevKitM-1, Wi-Fi, Firebase, IoT}
 \end{sazetak}
 
 \end{document}
