@@ -12,3 +12,7 @@ FreeRTOS-ESP-IDF-HTTPS-Server-Client/build
 FreeRTOS-ESP-IDF-HTTPS-Server-Client/main/build
 simple/build
 simple/main/build
+simple/main/certs/*
+simple/.devcontainer
+simple/.vscode
+simple/main/.vscode
