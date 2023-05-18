@@ -9,4 +9,6 @@ latex/*.lot
 latex/*.out
 latex/*.gz
 FreeRTOS-ESP-IDF-HTTPS-Server-Client/build
+FreeRTOS-ESP-IDF-HTTPS-Server-Client/main/build
 simple/build
+simple/main/build
